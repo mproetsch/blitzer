@@ -1,0 +1,5 @@
+Blitzer plays Bejeweled Blitz for you! All you have to do is run it
+Also use
+xdotool getmouselocation
+to ensure that your Bejeweled Blitz board's top-left corner is at (345, 336). This can be changed in blitzer.c (l. 27, l. 28).
+Make sure to compile with -lX11 and -lxdo. xdo should be available in the repos
